@@ -30,7 +30,7 @@ class Testimonials extends React.Component {
 		const { index, direction } = this.state;
 
 		return (
-			<div className='col-12 col-md-10 mx-auto'>
+			<div className='col-12 col-md-10 mx-auto' id='testimonials'>
 			<Jumbotron>
 				<Carousel activeIndex={index} direction={direction} onSelect={this.handleSelect} className='mb-5'>
 					<Carousel.Item className='h-100 w-100'>

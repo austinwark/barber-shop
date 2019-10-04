@@ -69,9 +69,9 @@ class Gallery extends React.Component {
 		return (
 			<div id='gallery'>
 				<h1 className='text-center display-4 mb-4'>Gallery</h1>
-				<div className='container-fluid'>
+				<div className='container'>
 				<Jumbotron>
-					<div className='row gallery-row'>
+					<div className='row'>
 						<Figure className='col-6 col-md-4 gallery-figures'>
 							<Figure.Image src='https://i.postimg.cc/8ChpM6hw/insta-photo-2.jpg' className='w-100 h-100' />
 						</Figure>

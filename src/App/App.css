@@ -8,3 +8,19 @@ html {
 }
 
 
+@media (min-width : 768px) {
+
+	.shrink {
+	position: fixed !important;
+	top: 0;
+	left: 4%;
+	z-index: 999;
+	//flex-direction: column !important;
+	transition: all .5s ease;
+	}
+
+	.shrink1 {
+		flex-direction: column !important;
+		transition: all .5s ease;
+	}
+}

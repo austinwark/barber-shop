@@ -43,6 +43,12 @@
 	font-size: 15px;
 }
 
+@media (min-width : 365px) {
+	.carousel {
+		height: 425px;
+	}
+}
+
 @media (min-width : 768px) {
 
 	.carousel {

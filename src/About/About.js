@@ -71,7 +71,7 @@ class About extends React.Component {
 						</div>
 					</div>
 				</div>
-				<div className='container-fluid'>
+				<div className='container'>
 				<Jumbotron className='bg-secondary'>
 					<div className='row'>
 						<div className='col-12'>

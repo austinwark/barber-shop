@@ -19,13 +19,14 @@ class Header extends React.Component {
 						<h2 className='lead text-secondary mt-2'>Est. 1996</h2>
 					</div>
 				</div>
-				<Navbar bg='light' variant='light' expand='lg' className='p-0'>
+				<Navbar bg='light' variant='light' expand='lg' className='p-0' id='banner'>
 					<Navbar.Toggle aria-controls='basic-navbar-nav'/>
 					<Navbar.Collapse id='basic-navbar-nav'>
-						<Nav className='mr-auto' fill >
+						<Nav id='banner1' className='mr-auto' fill >
 							<Nav.Link href='#header-main' className='font-weight-bold text-center active'>Home</Nav.Link>
 							<Nav.Link href='#about' className='font-weight-bold text-center active'>About</Nav.Link>
 							<Nav.Link href='#gallery' className='font-weight-bold text-center active'>Gallery</Nav.Link>
+							<Nav.Link href='#testimonials' className='font-weight-bold text-center active'>Testimonials</Nav.Link>
 						</Nav>
 					</Navbar.Collapse>
 				</Navbar>
