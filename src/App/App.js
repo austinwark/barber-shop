@@ -4,8 +4,9 @@ import Loadable from 'react-loadable';
 import './App.css';
 import '../../css/bootstrap.css';
 
+//import { ControlledCarousel } from '../Testimonials/Testimonials.js';
 
-
+import Testimonials from '../Testimonials/Testimonials.js';
 
 const HeaderComponent = Loadable({
 	loader: () => import('../Header/Header.js'),
@@ -17,7 +18,17 @@ const AboutComponent = Loadable({
 	loading: () => <div>Loading...</div>
 })
 
+const GalleryComponent = Loadable({
+	loader: () => import('../Gallery/Gallery.js'),
+	loading: () => <div>Loading...</div>
+})
 
+/*
+const TestimonialsComponent = Loadable({
+	loader: () => import('../Testimonials/Testimonials.js'),
+	loading: () => <div>Loading...</div>
+})
+*/
 class App extends React.Component {
 
 	render() {
@@ -26,6 +37,8 @@ class App extends React.Component {
 			<div id='app-main'>
 				<HeaderComponent />
 				<AboutComponent />
+				<GalleryComponent />
+				<Testimonials />
 			</div>
 			)
 	}

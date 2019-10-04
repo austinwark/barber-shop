@@ -1,0 +1,51 @@
+.testimonial-slide {
+	height: 100%;
+}
+
+.testimonial-slide > hr {
+	margin-top: .5rem;
+	margin-bottom: 0;
+	border-color: black;
+}
+
+.testimonial-slide > blockquote > p {
+	padding: 5%;
+}
+
+.testimonial-slide > blockquote {
+	margin-left: 5%;
+}
+
+.carousel {
+	height: 450px;
+}
+
+.carousel-inner {
+	height: 100% !important;
+}
+
+.carousel-control-prev-icon, .carousel-control-next-icon {
+	background-color: black !important;
+	margin-bottom: 1rem;
+}
+
+.carousel-control-prev, .carousel-control-next {
+	align-items: flex-end !important;
+}
+
+.carousel-indicators > li {
+	background-color: black !important;
+}
+
+.test-stars {
+	margin-left: 5%;
+	color: #E7711B;
+	font-size: 15px;
+}
+
+@media (min-width : 768px) {
+
+	.carousel {
+		height: 350px;
+	}
+}

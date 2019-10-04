@@ -5,6 +5,7 @@ import './About.css';
 import Card from 'react-bootstrap/Card';
 import ListGroup from 'react-bootstrap/ListGroup';
 import Image from 'react-bootstrap/Image';
+import Jumbotron from 'react-bootstrap/Jumbotron';
 
 
 class About extends React.Component {
@@ -70,7 +71,8 @@ class About extends React.Component {
 						</div>
 					</div>
 				</div>
-				<div className='container-fluid bg-secondary'>
+				<div className='container-fluid'>
+				<Jumbotron className='bg-secondary'>
 					<div className='row'>
 						<div className='col-12'>
 							<h1 className='text-center text-primary my-5'>Since 1996</h1>
@@ -80,6 +82,7 @@ class About extends React.Component {
 							loves my craft, providing top-notch service that helps men stay sharp.</p>
 						</div>
 					</div>
+				</Jumbotron>
 				</div>
 				<div className='container my-5'>
 					<div className='row'>
@@ -100,6 +103,7 @@ class About extends React.Component {
 						</div>
 					</div>
 				</div>
+				<hr className='w-75 my-5'></hr>
 			</div>
 			)
 	}

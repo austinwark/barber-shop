@@ -14,7 +14,7 @@ class Header extends React.Component {
 			<div>
 				<div id='header-main' className='jumbotron jumbotron-fluid my-0'>
 					<div id='header-text' className='container text-center text-light mt-5'>
-						<h1 className='display-4 text-info'>Bill's Barber Shop</h1>
+						<h1 className='display-2 text-info'>Bill's Barber Shop</h1>
 						<hr className=''></hr>
 						<h2 className='lead text-secondary mt-2'>Est. 1996</h2>
 					</div>
@@ -25,6 +25,7 @@ class Header extends React.Component {
 						<Nav className='mr-auto' fill >
 							<Nav.Link href='#header-main' className='font-weight-bold text-center active'>Home</Nav.Link>
 							<Nav.Link href='#about' className='font-weight-bold text-center active'>About</Nav.Link>
+							<Nav.Link href='#gallery' className='font-weight-bold text-center active'>Gallery</Nav.Link>
 						</Nav>
 					</Navbar.Collapse>
 				</Navbar>
