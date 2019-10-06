@@ -9,4 +9,13 @@
 	//background: no-repeat center/100% 100% fixed url('https://i.postimg.cc/d1jXb88L/huge-wallpaper.png');		
 }
 
+navbar-nav > a {
+	border: solid grey 1px;
+}
+
+navbar-nav > a:hover {
+	background: black;
+	color: white;
+}
+
 

@@ -40,6 +40,10 @@ html {
 		transition: all 2s ease !important;
 	}
 
+	.shrink1 > a {
+		transition: all 2s ease !important;
+	}
+
 	.abs-pos {
 		position: absolute !important;
 		top: 5%;
@@ -47,11 +51,12 @@ html {
 		z-index: 999;
 		flex-direction: column !important;
 		transition: all 2s ease !important;
-		background-color: white;
 	}
 
 	.abs-pos > a {
 		border: solid grey 1px;
+		color: black !important;
+		transition: all 2s ease !important;
 	}
 }
 

@@ -36,8 +36,8 @@
 @media (min-width : 576px) {
 
 	.about-shop-p {
-		padding-right: 20%;
-		padding-left: 20%;
+		padding-right: 10%;
+		padding-left: 10%;
 	}
 
 	#hours-col, #payments-col {

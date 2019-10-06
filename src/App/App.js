@@ -1,12 +1,12 @@
 import React from 'react';
 import Loadable from 'react-loadable';
 
+import Footer from '../Footer/Footer.js';
+
 import './App.css';
 import '../../css/bootstrap.css';
 
 //import { ControlledCarousel } from '../Testimonials/Testimonials.js';
-
-import Testimonials from '../Testimonials/Testimonials.js';
 
 const HeaderComponent = Loadable({
 	loader: () => import('../Header/Header.js'),
@@ -27,13 +27,13 @@ const TestimonialsComponent = Loadable({
 	loader: () => import('../Testimonials/Testimonials.js'),
 	loading: () => <div>Loading...</div>
 })
-
+/*
 const FooterComponent = Loadable({
 	loader: () => import('../Footer/Footer.js'),
 	loading: () => <div>Loading...</div>
 })
 
-
+*/
 class App extends React.Component {
 
 	componentDidMount() {
@@ -89,7 +89,7 @@ class App extends React.Component {
 				<AboutComponent />
 				<GalleryComponent />
 				<TestimonialsComponent />
-				<FooterComponent />
+				<Footer />
 			</div>
 			)
 	}

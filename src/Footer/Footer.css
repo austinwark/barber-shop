@@ -1,13 +1,25 @@
-.map-div {
-	height: 35rem;
+#map-div {
+	height: 20rem;
+	padding: 0;
 }
 
 #google-map {
 
-	width: 40%;
+	width: 100%;
 
-	height: 35rem;
+	margin: 0;
+
+	padding: 0;
+
+	height: 20rem;
 
 	//background-color: rgb(80, 80, 80);
 
+}
+
+@media (min-width : 768px) {
+
+	#footer-info {
+		line-height: 1.7rem;
+	}
 }

@@ -14,12 +14,12 @@ class Header extends React.Component {
 			<div>
 				<div id='header-main' className='jumbotron jumbotron-fluid my-0'>
 					<div id='header-text' className='container text-center text-light mt-5'>
-						<h1 className='display-2 text-info'><strong>Bill's Barber Shop</strong></h1>
+						<h1 className='display-3 text-info'><strong>Bill's Barber Shop</strong></h1>
 						<hr className=''></hr>
 						<h2 className='text-secondary mt-2'>Est. 1996</h2>
 					</div>
 				</div>
-				<Navbar bg='light' variant='light' expand='lg' className='p-0' id='banner'>
+				<Navbar bg='dark' variant='dark' expand='lg' className='p-0' id='banner'>
 					<Navbar.Toggle aria-controls='basic-navbar-nav'/>
 					<Navbar.Collapse id='basic-navbar-nav'>
 						<Nav id='banner1' className='mr-auto abs-pos' fill >

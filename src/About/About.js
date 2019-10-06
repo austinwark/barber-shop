@@ -16,42 +16,42 @@ class About extends React.Component {
 			<div id='about'>
 				<div className='container mt-5'>
 					<div className='row'>
-						<div className='col-12 col-md-5 ml-auto'>
+						<div className='col-12 col-md-4 col-xl-5 ml-auto'>
 							<h2 className='mb-4'>Payments</h2>
 							<ListGroup variant='flush' className=''>
-								<ListGroup.Item className='bg-dark text-success'>
+								<ListGroup.Item className='text-success pl-2'>
 									<p>&#10004;&nbsp;Cash</p>
 								</ListGroup.Item>
-								<ListGroup.Item className='bg-dark text-success'>
+								<ListGroup.Item className='text-success pl-2'>
 									<p>&#10004;&nbsp;Venmo</p>
 								</ListGroup.Item>
-								<ListGroup.Item className='bg-dark text-danger'>
+								<ListGroup.Item className='text-danger pl-2'>
 									<p>&#10008; &nbsp;&nbsp;Card</p>
 								</ListGroup.Item>
 							</ListGroup>
 						</div>
-						<div className='col-12 col-md-5 mr-auto'>
+						<div className='col-12 col-md-5 mr-auto mt-5 mt-md-0'>
 							<h2 className='mb-4'>Hours</h2>
-							<ListGroup variant='flush' className='bg-dark'>
-								<ListGroup.Item className='bg-dark'>
+							<ListGroup variant='flush' className='text-primary'>
+								<ListGroup.Item className=''>
 									<p>Monday<span className='float-right'>CLOSED</span></p>
 								</ListGroup.Item>
-								<ListGroup.Item className='bg-dark'>
+								<ListGroup.Item className=''>
 									<p>Tuesday<span className='float-right'>8:00am - 6:00pm</span></p>
 								</ListGroup.Item>
-								<ListGroup.Item className='bg-dark'>
+								<ListGroup.Item className=''>
 									<p>Wednesday<span className='float-right'>8:00am - 6:00pm</span></p>
 								</ListGroup.Item>
-								<ListGroup.Item className='bg-dark'>
+								<ListGroup.Item className=''>
 									<p>Thursday<span className='float-right'>8:00am - 6:00pm</span></p>
 								</ListGroup.Item>
-								<ListGroup.Item className='bg-dark'>
+								<ListGroup.Item className=''>
 									<p>Friday<span className='float-right'>8:00am - 6:00pm</span></p>
 								</ListGroup.Item>
-								<ListGroup.Item className='bg-dark'>
+								<ListGroup.Item className=''>
 									<p>Friday<span className='float-right'>8:00am - 12:00pm</span></p>
 								</ListGroup.Item>
-								<ListGroup.Item className='bg-dark'>
+								<ListGroup.Item className=''>
 									<p>Friday<span className='float-right'>CLOSED</span></p>
 								</ListGroup.Item>
 							</ListGroup>
@@ -61,8 +61,8 @@ class About extends React.Component {
 				<hr className='w-75'></hr>
 				<div className='container'>
 					<div className='row'>
-						<div className='col-12 col-md-10 mx-auto linear-gradient'>
-							<h1 className='text-center text-primary my-5'>Since 1996</h1>
+						<div className='col-12 col-md-10 col-lg-8 mx-auto linear-gradient'>
+							<h1 className='text-center text-primary mt-5 mb-3'>Since 1996</h1>
 							<p className='text-center text-secondary about-shop-p'>Bill's Barber Shop is a classic, American, no-holds-barred barbershop. A variety of services is 
 							offered, catering to everyone, with solely the clientele in mind. The Shop stays true to the ways of the classic gentleman's shop, 
 							striving to bring the memories back. People still pay for quality - Bill's Barber Shop is where you will get it. I am a barber who 
@@ -72,20 +72,20 @@ class About extends React.Component {
 				</div>
 				<div className='container my-5'>
 					<div className='row'>
-						<div className='col-12 col-md-5 ml-auto mb-5'>
+						<div className='col-12 col-md-4 col-xl-5 ml-auto mb-5'>
 							<Image src='https://i.postimg.cc/d0MQhBTL/insta-photo-1.jpg' thumbnail className='mx-auto shadow-lg' />
 						</div>
 						<div className='col-12 col-md-5 mr-auto'>
-							<Card className='mx-auto shadow-lg'>
-								<Card.Header className=''>
-									<Card.Title><h2>Bill The Barber</h2></Card.Title>
-								</Card.Header>
-								<Card.Body>
+							<ListGroup variant='flush' className='mx-auto text-primary'>
+								<ListGroup.Item className=''>
+									<h2>Bill The Barber</h2>
+								</ListGroup.Item>
+								<ListGroup.Item>
 									<p className='btb-card-p'>Bill Rudolph is a father, a husband, a veteran, and an esteemed local business owner. After cutting hair for over 30
 									years, Bill has secured a steady clientele who appreciate his experience and itegrity. Whether you are looking for the newest 
 									and sharpest style, or want to remain true to the classic cuts, Bill is your local go-to barber.</p>
-								</Card.Body>
-							</Card>
+								</ListGroup.Item>
+							</ListGroup>
 						</div>
 					</div>
 				</div>

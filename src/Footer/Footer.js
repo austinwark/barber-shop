@@ -3,18 +3,18 @@ import React from 'react';
 import './Footer.css';
 
 import ListGroup from 'react-bootstrap/ListGroup';
+import Jumbotron from 'react-bootstrap/Jumbotron';
 
 const Footer = () => {
 	return (
-		<div >
-			<div className='container' id='contact'>
+			<Jumbotron fluid className='container-fluid bg-dark m-0' id='contact'>
 				<div className='row'>
-					<div className='col-12 col-md-5 map-div ml-auto'>
-						<div id='google-map'>a
+					<div className='col-11 col-md-4 mx-auto ml-md-auto mr-5' id='map-div'>
+						<div id='google-map'>
 						</div>
 					</div>
-					<div className='col-12 col-md-5 mr-auto'>
-						<div className='row mt-2'>
+					<div className='col-11 col-md-5 mx-auto mt-4 mt-md-0 ml-md-5 mr-md-auto'>
+						<div className='row mt-2 text-light'>
 							<div className='col-6'>
 								<strong>Address</strong>
 								<address>
@@ -28,7 +28,7 @@ const Footer = () => {
 						</div>
 						<hr></hr>
 						<div className='row mt-2'>
-							<div className='col-12 text-left text-left'>
+							<div className='col-12 text-left text-left text-light' id='footer-info'>
 								<ol className=' float-left ml-0 pl-3'>
 									<li>At the corner of Route 43 & Route 150, across from Doors of Hope</li>
 									<li>Parking located in front of shop, as well as across the street</li>
@@ -39,8 +39,7 @@ const Footer = () => {
 						</div>
 					</div>
 				</div>
-			</div>
-		</div>
+			</Jumbotron>
 		)
 }
 
