@@ -16,8 +16,8 @@ class About extends React.Component {
 			<div id='about'>
 				<div className='container mt-5'>
 					<div className='row'>
-						<div className='col-12 col-md-4 col-xl-5 ml-auto'>
-							<h2 className='mb-4'>Payments</h2>
+						<div className='col-12 col-md-3 col-xl-5 ml-auto'>
+							<h3 className='mb-4'>Payments</h3>
 							<ListGroup variant='flush' className=''>
 								<ListGroup.Item action className='text-success pl-2'>
 									<p>&#10004;&nbsp;Cash</p>
@@ -31,7 +31,7 @@ class About extends React.Component {
 							</ListGroup>
 						</div>
 						<div className='col-12 col-md-5 mr-auto mt-5 mt-md-0'>
-							<h2 className='mb-4'>Hours</h2>
+							<h3 className='mb-4'>Hours</h3>
 							<ListGroup variant='flush' className='text-primary'>
 								<ListGroup.Item action className=''>
 									<p>Monday<span className='float-right'>CLOSED</span></p>
@@ -61,7 +61,7 @@ class About extends React.Component {
 				<hr className='w-75'></hr>
 				<div className='container'>
 					<div className='row'>
-						<div className='col-12 col-md-10 col-lg-8 mx-auto linear-gradient'>
+						<div className='col-12 col-md-8 mx-auto linear-gradient'>
 							<h1 className='text-center text-primary mt-5 mb-3'>Since 1996</h1>
 							<p className='text-center text-secondary about-shop-p'>Bill's Barber Shop is a classic, American, no-holds-barred barbershop. A variety of services is 
 							offered, catering to everyone, with solely the clientele in mind. The Shop stays true to the ways of the classic gentleman's shop, 
@@ -72,10 +72,10 @@ class About extends React.Component {
 				</div>
 				<div className='container my-5'>
 					<div className='row'>
-						<div className='col-12 col-md-4 col-xl-5 ml-auto mb-5'>
+						<div className='col-12 col-md-8 mx-md-auto col-lg-4 col-xl-5 ml-lg-auto mr-lg-0 mb-5'>
 							<Image src='https://i.postimg.cc/d0MQhBTL/insta-photo-1.jpg' thumbnail className='mx-auto shadow-lg' />
 						</div>
-						<div className='col-12 col-md-5 mr-auto'>
+						<div className='col-12 col-md-8 mx-md-auto col-lg-5 mr-lg-auto ml-lg-0'>
 							<ListGroup variant='flush' className='mx-auto text-primary'>
 								<ListGroup.Item className=''>
 									<h2>Bill The Barber</h2>
