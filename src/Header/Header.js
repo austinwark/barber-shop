@@ -19,15 +19,15 @@ class Header extends React.Component {
 						<h2 className='text-secondary mt-2'>Est. 1996</h2>
 					</div>
 				</div>
-				<Navbar bg='dark' variant='dark' expand='lg' className='p-0' id='banner'>
+				<Navbar bg='dark' variant='dark' expand='md' className='p-0' id='banner'>
 					<Navbar.Toggle aria-controls='basic-navbar-nav'/>
 					<Navbar.Collapse id='basic-navbar-nav'>
 						<Nav id='banner1' className='mr-auto abs-pos' fill >
-							<Nav.Link href='#header-main' className='font-weight-bold text-center'>Home</Nav.Link>
-							<Nav.Link href='#about' className='font-weight-bold text-center'>About</Nav.Link>
-							<Nav.Link href='#gallery' className='font-weight-bold text-center'>Gallery</Nav.Link>
-							<Nav.Link href='#testimonials' className='font-weight-bold text-center'>Testimonials</Nav.Link>
-							<Nav.Link href='#contact' className='font-weight-bold text-center'>Contact</Nav.Link>
+							<Nav.Link href='#header-main' className='font-weight-bold first-child-link'>Home</Nav.Link>
+							<Nav.Link href='#about' className='font-weight-bold'>About</Nav.Link>
+							<Nav.Link href='#gallery' className='font-weight-bold'>Gallery</Nav.Link>
+							<Nav.Link href='#testimonials' className='font-weight-bold'>Testimonials</Nav.Link>
+							<Nav.Link href='#contact' className='font-weight-bold'>Contact</Nav.Link>
 						</Nav>
 					</Navbar.Collapse>
 				</Navbar>

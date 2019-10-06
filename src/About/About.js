@@ -19,13 +19,13 @@ class About extends React.Component {
 						<div className='col-12 col-md-4 col-xl-5 ml-auto'>
 							<h2 className='mb-4'>Payments</h2>
 							<ListGroup variant='flush' className=''>
-								<ListGroup.Item className='text-success pl-2'>
+								<ListGroup.Item action className='text-success pl-2'>
 									<p>&#10004;&nbsp;Cash</p>
 								</ListGroup.Item>
-								<ListGroup.Item className='text-success pl-2'>
+								<ListGroup.Item action className='text-success pl-2'>
 									<p>&#10004;&nbsp;Venmo</p>
 								</ListGroup.Item>
-								<ListGroup.Item className='text-danger pl-2'>
+								<ListGroup.Item action className='text-danger pl-2'>
 									<p>&#10008; &nbsp;&nbsp;Card</p>
 								</ListGroup.Item>
 							</ListGroup>
@@ -33,26 +33,26 @@ class About extends React.Component {
 						<div className='col-12 col-md-5 mr-auto mt-5 mt-md-0'>
 							<h2 className='mb-4'>Hours</h2>
 							<ListGroup variant='flush' className='text-primary'>
-								<ListGroup.Item className=''>
+								<ListGroup.Item action className=''>
 									<p>Monday<span className='float-right'>CLOSED</span></p>
 								</ListGroup.Item>
-								<ListGroup.Item className=''>
+								<ListGroup.Item action className=''>
 									<p>Tuesday<span className='float-right'>8:00am - 6:00pm</span></p>
 								</ListGroup.Item>
-								<ListGroup.Item className=''>
+								<ListGroup.Item action className=''>
 									<p>Wednesday<span className='float-right'>8:00am - 6:00pm</span></p>
 								</ListGroup.Item>
-								<ListGroup.Item className=''>
+								<ListGroup.Item action className=''>
 									<p>Thursday<span className='float-right'>8:00am - 6:00pm</span></p>
 								</ListGroup.Item>
-								<ListGroup.Item className=''>
+								<ListGroup.Item action className=''>
 									<p>Friday<span className='float-right'>8:00am - 6:00pm</span></p>
 								</ListGroup.Item>
-								<ListGroup.Item className=''>
-									<p>Friday<span className='float-right'>8:00am - 12:00pm</span></p>
+								<ListGroup.Item action className=''>
+									<p>Saturday<span className='float-right'>8:00am - 12:00pm</span></p>
 								</ListGroup.Item>
-								<ListGroup.Item className=''>
-									<p>Friday<span className='float-right'>CLOSED</span></p>
+								<ListGroup.Item action className=''>
+									<p>Sunday<span className='float-right'>CLOSED</span></p>
 								</ListGroup.Item>
 							</ListGroup>
 						</div>
