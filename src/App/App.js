@@ -23,12 +23,16 @@ const GalleryComponent = Loadable({
 	loading: () => <div>Loading...</div>
 })
 
-/*
 const TestimonialsComponent = Loadable({
 	loader: () => import('../Testimonials/Testimonials.js'),
 	loading: () => <div>Loading...</div>
 })
-*/
+
+const FooterComponent = Loadable({
+	loader: () => import('../Footer/Footer.js'),
+	loading: () => <div>Loading...</div>
+})
+
 
 class App extends React.Component {
 
@@ -60,13 +64,16 @@ class App extends React.Component {
 
 	handleScroll() {
 		//console.log('scrolling');
-		if (document.documentElement.scrollTop > 781) {
+		if (document.documentElement.scrollTop > 781 || window.pageYOffset > 781) {
 			console.log(document.documentElement.scrollTop)
 			document.getElementById('banner').classList.add('shrink')
 			document.getElementById('banner1').classList.add('shrink1')
+			document.getElementById('banner1').classList.remove('abs-pos')
+
 		} else {
 			document.getElementById('banner').classList.remove('shrink')
 			document.getElementById('banner1').classList.remove('shrink1')
+			document.getElementById('banner1').classList.add('abs-pos')
 	}
 }
 
@@ -81,7 +88,8 @@ class App extends React.Component {
 				<HeaderComponent />
 				<AboutComponent />
 				<GalleryComponent />
-				<Testimonials />
+				<TestimonialsComponent />
+				<FooterComponent />
 			</div>
 			)
 	}

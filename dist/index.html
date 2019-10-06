@@ -26,8 +26,35 @@
 
 		<script src="https://polyfill.io/v2/polyfill.min.js?features=IntersectionObserver"></script>
 
-
-
 		<script src="./bundle.js"></script>
+
+		<script>
+
+		function myMap() {
+
+
+
+    		let centerMark = {lat: 42.642997, lng: -73.608440};
+
+
+
+    		let map = new google.maps.Map(
+
+    			document.getElementById('google-map'), {zoom: 15, center: centerMark}
+
+    			);
+
+
+
+    		let market = new google.maps.Marker({position: centerMark, map: map});
+
+
+
+    	}
+
+    </script>
+
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyADSna2_hZJLFY9Zxy5_40Gqcg8u-yF_wY&callback=myMap"></script>
+    	<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyADSna2_hZJLFY9Zxy5_40Gqcg8u-yF_wY&callback=myMap"></script>
 	</body>
 </html>
