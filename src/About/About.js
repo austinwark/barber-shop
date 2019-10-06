@@ -3,8 +3,8 @@ import React from 'react';
 import './About.css';
 
 import Card from 'react-bootstrap/Card';
-import ListGroup from 'react-bootstrap/ListGroup';
-import Image from 'react-bootstrap/Image';
+import ListGroup from 'react-bootstrap/ListGroup' //;&#10004;;&#10008;
+import Image from 'react-bootstrap/Image' 
 import Jumbotron from 'react-bootstrap/Jumbotron';
 
 
@@ -14,83 +14,69 @@ class About extends React.Component {
 
 		return (
 			<div id='about'>
-				<div className='container'>
-					<div className='row my-5 mx-auto'>
-						<div className='col-12 col-md-6 mb-5' id='payments-col'>
-							<Card className='mx-auto'>
-								<Card.Header className=''>
-									<Card.Title className='text-light text-center'><h3>Walk-ins Welcomed</h3></Card.Title>
-								</Card.Header>
-								<Card.Body className='text-left'>
-									<ListGroup variant='flush'>
-										<h5 className='mb-4'>Payments</h5>
-										<ListGroup.Item action className='text-success'>&#10004;Cash</ListGroup.Item>
-										<ListGroup.Item action className='text-success'>&#10004;Venmo</ListGroup.Item>
-										<ListGroup.Item action className='text-danger'>&#10008; &nbsp;&nbsp;Card</ListGroup.Item>
-									</ListGroup>
-								</Card.Body>
-							</Card>
+				<div className='container mt-5'>
+					<div className='row'>
+						<div className='col-12 col-md-5 ml-auto'>
+							<h2 className='mb-4'>Payments</h2>
+							<ListGroup variant='flush' className=''>
+								<ListGroup.Item className='bg-dark text-success'>
+									<p>&#10004;&nbsp;Cash</p>
+								</ListGroup.Item>
+								<ListGroup.Item className='bg-dark text-success'>
+									<p>&#10004;&nbsp;Venmo</p>
+								</ListGroup.Item>
+								<ListGroup.Item className='bg-dark text-danger'>
+									<p>&#10008; &nbsp;&nbsp;Card</p>
+								</ListGroup.Item>
+							</ListGroup>
 						</div>
-						<div className='col-12 col-md-6 mb-5 ml-auto' id='hours-col'>
-							<Card className='text-left mx-auto'>
-								<Card.Header className=''>
-									<Card.Title className='text-light text-center'><h3>Hours</h3></Card.Title>
-								</Card.Header>
-								<Card.Body>
-									<ListGroup variant='flush'>
-										<ListGroup.Item action className='text-light'>
-											Monday
-											<span className='hours-badge text-warning'>CLOSED</span>
-										</ListGroup.Item>
-										<ListGroup.Item action className='text-light'>
-											Tuesday
-											<span className='hours-badge text-info'>8:00am - 6:00pm</span>
-										</ListGroup.Item>
-										<ListGroup.Item action className='text-light'>
-											Wednesday
-											<span className='hours-badge text-info'>8:00am - 6:00pm</span>
-										</ListGroup.Item>
-										<ListGroup.Item action className='text-light'>
-											Thursday
-											<span className='hours-badge text-info'>8:00am - 6:00pm</span>
-										</ListGroup.Item>
-										<ListGroup.Item action className='text-light'>
-											Friday
-											<span className='hours-badge text-info'>8:00am - 6:00pm</span>
-										</ListGroup.Item>
-										<ListGroup.Item action className='text-light'>
-											Saturday
-											<span className='hours-badge text-info'>8:00am - 12:00pm</span>
-										</ListGroup.Item><ListGroup.Item action className='text-light'>
-											Sunday
-											<span className='hours-badge text-warning'>CLOSED</span>
-										</ListGroup.Item>
-									</ListGroup>
-								</Card.Body>
-							</Card>
+						<div className='col-12 col-md-5 mr-auto'>
+							<h2 className='mb-4'>Hours</h2>
+							<ListGroup variant='flush' className='bg-dark'>
+								<ListGroup.Item className='bg-dark'>
+									<p>Monday<span className='float-right'>CLOSED</span></p>
+								</ListGroup.Item>
+								<ListGroup.Item className='bg-dark'>
+									<p>Tuesday<span className='float-right'>8:00am - 6:00pm</span></p>
+								</ListGroup.Item>
+								<ListGroup.Item className='bg-dark'>
+									<p>Wednesday<span className='float-right'>8:00am - 6:00pm</span></p>
+								</ListGroup.Item>
+								<ListGroup.Item className='bg-dark'>
+									<p>Thursday<span className='float-right'>8:00am - 6:00pm</span></p>
+								</ListGroup.Item>
+								<ListGroup.Item className='bg-dark'>
+									<p>Friday<span className='float-right'>8:00am - 6:00pm</span></p>
+								</ListGroup.Item>
+								<ListGroup.Item className='bg-dark'>
+									<p>Friday<span className='float-right'>8:00am - 12:00pm</span></p>
+								</ListGroup.Item>
+								<ListGroup.Item className='bg-dark'>
+									<p>Friday<span className='float-right'>CLOSED</span></p>
+								</ListGroup.Item>
+							</ListGroup>
 						</div>
 					</div>
 				</div>
+				<hr className='w-75'></hr>
 				<div className='container'>
-				<Jumbotron className='bg-secondary'>
 					<div className='row'>
-						<div className='col-12'>
+						<div className='col-12 col-md-10 mx-auto linear-gradient'>
 							<h1 className='text-center text-primary my-5'>Since 1996</h1>
-							<p className='text-center text-dark about-shop-p'>Bill's Barber Shop is a classic, American, no-holds-barred barbershop. A variety of services is 
+							<p className='text-center text-secondary about-shop-p'>Bill's Barber Shop is a classic, American, no-holds-barred barbershop. A variety of services is 
 							offered, catering to everyone, with solely the clientele in mind. The Shop stays true to the ways of the classic gentleman's shop, 
 							striving to bring the memories back. People still pay for quality - Bill's Barber Shop is where you will get it. I am a barber who 
 							loves my craft, providing top-notch service that helps men stay sharp.</p>
 						</div>
 					</div>
-				</Jumbotron>
 				</div>
 				<div className='container my-5'>
 					<div className='row'>
-						<div className='col-12 col-md-6 mx-auto mb-5'>
-							<Image src='https://i.postimg.cc/d0MQhBTL/insta-photo-1.jpg' thumbnail className='mx-auto' />
+						<div className='col-12 col-md-5 ml-auto mb-5'>
+							<Image src='https://i.postimg.cc/d0MQhBTL/insta-photo-1.jpg' thumbnail className='mx-auto shadow-lg' />
 						</div>
-						<div className='col-12 col-md-6 mx-auto'>
-							<Card className='mx-auto'>
+						<div className='col-12 col-md-5 mr-auto'>
+							<Card className='mx-auto shadow-lg'>
 								<Card.Header className=''>
 									<Card.Title><h2>Bill The Barber</h2></Card.Title>
 								</Card.Header>
