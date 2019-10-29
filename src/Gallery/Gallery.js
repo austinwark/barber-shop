@@ -70,7 +70,7 @@ class Gallery extends React.Component {
 			<div id='gallery' className=''>
 				<h1 className='text-center display-4 mb-4'>Gallery</h1>
 				<div className='container'>
-				<div className=' col-md-7 col-lg-9 mx-auto'>
+				<div className=' col-md-9 col-lg-10 mx-auto'>
 					<div className='row'>
 						<Figure className='col-6 col-lg-4 gallery-figures ml-auto'>
 							<Figure.Image src='https://i.postimg.cc/8ChpM6hw/insta-photo-2.jpg' className='w-100 h-100' />

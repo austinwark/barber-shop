@@ -52,30 +52,7 @@ class App extends React.Component {
 	} */
 
 	 /*A cross-browser attempt to remove a class name*/
-	removeClass() {
-  		let element = document.getElementById("banner");
-  		element.className = element.className.replace(/\bshrink\b/g, "");
-	} 
 
-	addClass() {
-  		var element = document.getElementById("myDIV");
-  			element.classList.add("mystyle");
-	}
-
-	handleScroll() {
-		//console.log('scrolling');
-		if (document.documentElement.scrollTop > 781 || window.pageYOffset > 781) {
-			console.log(document.documentElement.scrollTop)
-			document.getElementById('banner').classList.add('shrink')
-			document.getElementById('banner1').classList.add('shrink1')
-			document.getElementById('banner1').classList.remove('abs-pos')
-
-		} else {
-			document.getElementById('banner').classList.remove('shrink')
-			document.getElementById('banner1').classList.remove('shrink1')
-			document.getElementById('banner1').classList.add('abs-pos')
-	}
-}
 
 	
 

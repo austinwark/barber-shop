@@ -22,12 +22,12 @@ class Header extends React.Component {
 				<Navbar bg='dark' variant='dark' expand='md' className='p-0' id='banner'>
 					<Navbar.Toggle aria-controls='basic-navbar-nav'/>
 					<Navbar.Collapse id='basic-navbar-nav'>
-						<Nav id='banner1' className='mr-auto abs-pos' fill >
-							<Nav.Link href='#header-main' className='font-weight-bold first-child-link'>Home</Nav.Link>
-							<Nav.Link href='#about' className='font-weight-bold'>About</Nav.Link>
-							<Nav.Link href='#gallery' className='font-weight-bold'>Gallery</Nav.Link>
-							<Nav.Link href='#testimonials' className='font-weight-bold'>Testimonials</Nav.Link>
-							<Nav.Link href='#contact' className='font-weight-bold'>Contact</Nav.Link>
+						<Nav id='banner1' className='mr-auto' fill>
+							<Nav.Link href='#header-main' className='font-weight-bold bg-primary header-link'>Bill's Barber Shop</Nav.Link>
+							<Nav.Link href='#about' className='font-weight-bold header-link'>About</Nav.Link>
+							<Nav.Link href='#gallery' className='font-weight-bold header-link'>Gallery</Nav.Link>
+							<Nav.Link href='#testimonials' className='font-weight-bold header-link'>Testimonials</Nav.Link>
+							<Nav.Link href='#contact' className='font-weight-bold header-link'>Contact</Nav.Link>
 						</Nav>
 					</Navbar.Collapse>
 				</Navbar>

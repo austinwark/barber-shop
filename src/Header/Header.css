@@ -10,13 +10,16 @@
 }
 
 navbar-nav > a {
-	border: solid grey 1px;
+	padding: 20px;
+	white-space: nowrap;
 }
 
-navbar-nav > a:hover {
-	background: black;
-	color: white;
+.header-link {
+	padding: 20px;
+	white-space: nowrap;
 }
+
+
 
 @media (min-width : 992px) {
 	#banner1 > a {

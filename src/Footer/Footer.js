@@ -33,7 +33,7 @@ class Footer extends React.Component {
 								</div>
 								<div className='col-6 contact-phone'>
 									<h6>Phone (text prefered)</h6>
-									<address><a href='sms:+15185909013'>(518) 424-2850</a></address>
+									<address><a href='sms:+15185909013'>(518) 590-9013</a></address>
 								</div>
 							</div>
 							<hr className='my-1'></hr>
