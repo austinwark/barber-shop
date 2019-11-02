@@ -63,7 +63,7 @@ class About extends React.Component {
 					<div className='row'>
 						<div className='col-12 col-md-10 mx-auto linear-gradient'>
 							<h1 className='text-center text-primary mt-5 mb-3'>Since 1996</h1>
-							<p className='text-center text-secondary about-shop-p'>Bill's Barber Shop is a classic, American, no-holds-barred barbershop. A variety of services is 
+							<p className='text-center text-secondary about-shop-p lead'>Bill's Barber Shop is a classic, American, no-holds-barred barbershop. A variety of services is 
 							offered, catering to everyone, with solely the clientele in mind. The Shop stays true to the ways of the classic gentleman's shop, 
 							striving to bring the memories back. People still pay for quality - Bill's Barber Shop is where you will get it. I am a barber who 
 							loves my craft, providing top-notch service that helps men stay sharp.</p>
@@ -81,7 +81,7 @@ class About extends React.Component {
 									<h2>Bill The Barber</h2>
 								</ListGroup.Item>
 								<ListGroup.Item>
-									<p className='btb-card-p'>Bill Rudolph is a father, a husband, a veteran, and an esteemed local business owner. After cutting hair for over 30
+									<p className='btb-card-p lead'>Bill Rudolph is a father, a husband, a veteran, and an esteemed local business owner. After cutting hair for over 30
 									years, Bill has secured a steady clientele who appreciate his experience and itegrity. Whether you are looking for the newest 
 									and sharpest style, or want to remain true to the classic cuts, Bill is your local go-to barber.</p>
 								</ListGroup.Item>
